@@ -45,7 +45,7 @@ function Home(props) {
       <Grid item md={8} sm={8} xs={12}>
         <Paper className={classes.paper}>
           <Typography variant="h2" className={classes.text} align="center">
-            I'm a React Developer
+            ... and make the next big thing together.
           </Typography>
           <Typography
             variant="body1"
@@ -53,9 +53,8 @@ function Home(props) {
             align="center"
             color="textSecondary"
           >
-            Let's face it, React is the next big thing. I've dabbled in a little
-            bit of everything but nothing is as fun as React. You need a
-            component? Well, you've got the right guy.
+            I've got my feet wet in a little of everything, but React has taken over my heart.
+            If you want someone with an attention to detail, you've found him.
           </Typography>
         </Paper>
       </Grid>
