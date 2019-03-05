@@ -7,6 +7,7 @@ import IconButton from "@material-ui/core/IconButton/IconButton";
 import logo from "../static/BH.png";
 import { GithubBox, LinkedinBox } from "mdi-material-ui";
 import Main from "./Main";
+import { Link } from "react-router-dom";
 
 const styles = theme => ({
   layout: {
@@ -47,14 +48,14 @@ class Nav extends Component {
         <div className={classes.layout}>
           <Toolbar className={classes.toolbarMain}>
             <div className={classes.toolbarTitle}>
-              <IconButton>
+              <IconButton component={Link} to="/">
                 <img src={logo} alt="BHLogo" className={classes.logo} />
               </IconButton>
             </div>
-            <IconButton>
+            <IconButton href="https://github.com/bly01854" target="_blank" rel="noopener">
               <GithubBox fontSize="large" />
             </IconButton>
-            <IconButton>
+            <IconButton href="https://www.linkedin.com/in/baileyhenson/" target="_blank" rel="noopener">
               <LinkedinBox fontSize="large" />
             </IconButton>
           </Toolbar>
