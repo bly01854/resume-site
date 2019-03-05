@@ -4,6 +4,7 @@ import Toolbar from "@material-ui/core/Toolbar/Toolbar";
 import Typography from "@material-ui/core/Typography/Typography";
 import withStyles from "@material-ui/core/styles/withStyles";
 import IconButton from "@material-ui/core/IconButton/IconButton";
+import Button from "@material-ui/core/Button/Button";
 import logo from "../static/BH.png";
 import { GithubBox, LinkedinBox } from "mdi-material-ui";
 import Main from "./Main";
@@ -34,9 +35,7 @@ const styles = theme => ({
     height: 65,
     width: 65
   },
-  navLinks: {
-
-  }
+  navLinks: {}
 });
 
 class Nav extends Component {
@@ -52,17 +51,27 @@ class Nav extends Component {
                 <img src={logo} alt="BHLogo" className={classes.logo} />
               </IconButton>
             </div>
-            <IconButton href="https://github.com/bly01854" target="_blank" rel="noopener">
+            <IconButton
+              href="https://github.com/bly01854"
+              target="_blank"
+              rel="noopener"
+            >
               <GithubBox fontSize="large" />
             </IconButton>
-            <IconButton href="https://www.linkedin.com/in/baileyhenson/" target="_blank" rel="noopener">
+            <IconButton
+              href="https://www.linkedin.com/in/baileyhenson/"
+              target="_blank"
+              rel="noopener"
+            >
               <LinkedinBox fontSize="large" />
             </IconButton>
           </Toolbar>
           <Toolbar variant="dense" className={classes.toolbarSecondary}>
-            <Typography color="inherit" noWrap>
-              About
-            </Typography>
+            <Button color="inherit" component={Link} to="/about">
+              <Typography color="inherit" variant="body1" noWrap>
+                About
+              </Typography>
+            </Button>
             <Typography color="inherit" noWrap>
               Portfolio
             </Typography>
