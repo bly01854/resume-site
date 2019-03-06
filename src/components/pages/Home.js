@@ -53,8 +53,9 @@ function Home(props) {
             align="center"
             color="textSecondary"
           >
-            I've got my feet wet in a little of everything, but React has taken over my heart.
-            If you want someone with an attention to detail, you've found him.
+            From helping a health department get a community active, to working with
+            some of the biggest clothing brands push data into the right places - I'm
+            someone with an attention to detail. I love making full-stack applications.
           </Typography>
         </Paper>
       </Grid>

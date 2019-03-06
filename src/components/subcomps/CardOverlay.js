@@ -24,8 +24,8 @@ const styles = theme => ({
   cardMedia: {
     height: "100%",
     width: "100%",
-    filter: "grayscale(90%) blur(2px)",
-    contrast: "90%",
+    filter: "grayscale(90%) blur(2px) brightness(60%)",
+    contrast: "40%",
   },
   overlay: {
     position: "absolute",
