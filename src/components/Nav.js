@@ -39,7 +39,12 @@ const styles = theme => ({
 });
 
 class Nav extends Component {
+  constructor(props){
+    super(props)
+  }
+
   render() {
+    console.log(this.props)
     const { classes } = this.props;
     return (
       <React.Fragment>
@@ -72,18 +77,24 @@ class Nav extends Component {
                 About
               </Typography>
             </Button>
-            <Typography color="inherit" noWrap>
-              Portfolio
-            </Typography>
-            <Typography color="inherit" noWrap>
-              Resume
-            </Typography>
-            <Typography color="inherit" noWrap>
-              Contact
-            </Typography>
+            <Button color="inherit" component={Link} to="/portfolio">
+              <Typography color="inherit" variant="body1" noWrap>
+                Portfolio
+              </Typography>
+            </Button>
+            <Button color="inherit" component={Link} to="/resume">
+              <Typography color="inherit" variant="body1" noWrap>
+                Resume
+              </Typography>
+            </Button>
+            <Button color="inherit" component={Link} to="/contact">
+              <Typography color="inherit" variant="body1" noWrap>
+                Contact
+              </Typography>
+            </Button>
           </Toolbar>
         </div>
-        <Main />
+        <Main  />
       </React.Fragment>
     );
   }

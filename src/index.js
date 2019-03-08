@@ -6,13 +6,14 @@ import { BrowserRouter } from "react-router-dom";
 import 'typeface-roboto'
 import us from "./static/us.jpeg";
 import code from "./static/code.jpg";
+import lake from "./static/lake.jpg";
 
 const theme = createMuiTheme();
 
 ReactDOM.render(
   <BrowserRouter>
     <MuiThemeProvider theme={theme}>
-      <App pictures={[us, code]} />
+      <App pictures={[code, us, lake]} />
     </MuiThemeProvider>
   </BrowserRouter>,
   document.getElementById("root")
