@@ -12,6 +12,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 const styles = theme => ({
   paper: {
     backgroundColor: theme.palette.grey[200],
+    height: "100%",
     color: theme.palette.common.white,
     paddingTop: "2%",
     paddingBottom: "2%"

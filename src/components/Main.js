@@ -4,18 +4,22 @@ import About from "./pages/About";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, withRouter } from "react-router-dom";
 
-export default function Main(props) {
+function Main(props) {
+  const { location } = props;
   return (
     <main>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/resume" component={Resume} />
-        <Route path="/contact" component={Contact} />
-      </Switch>
+          <Switch location={location}>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/resume" component={Resume} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
     </main>
   );
 }
+
+
+export default withRouter(Main);
