@@ -28,7 +28,7 @@ function Skills(props) {
           <ListItem>
             <ListItemText
               primary="Javascript"
-              secondary="React, Redux, Express, Node.js"
+              secondary="React, Redux, Express, Node.js, AJAX"
               primaryTypographyProps={{ align: "center" }}
               secondaryTypographyProps={{ align: "center" }}
             />

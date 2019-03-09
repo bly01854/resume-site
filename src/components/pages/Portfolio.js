@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography, Link } from "@material-ui/core";
+import { Grid, Typography } from "@material-ui/core";
 import withStyles from "@material-ui/core/styles/withStyles";
 import Project from "../subcomps/Project";
 
@@ -56,7 +56,7 @@ class Portfolio extends React.Component {
           images={[
             <img
               className={classes.image}
-              src={require("../../static/codeit.PNG")}
+              src={require("../../static/pantheon.jpg")}
             />
           ]}
           title={"Pantheon"}
@@ -110,7 +110,7 @@ class Portfolio extends React.Component {
           images={[
             <img
               className={classes.image}
-              src={require("../../static/codeit.PNG")}
+              src={require("../../static/swatch.png")}
             />
           ]}
           title={"Dragonfruit"}
