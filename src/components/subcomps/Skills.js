@@ -73,6 +73,12 @@ function Skills(props) {
               secondaryTypographyProps={{ align: "center" }}
             />
           </ListItem>
+          <ListItem>
+            <ListItemText
+              primary="Unix / Linux"
+              primaryTypographyProps={{ align: "center" }}
+            />
+          </ListItem>
         </List>
       </Grid>
       <Grid item md={5} sm={5} xs={6}>
@@ -99,6 +105,13 @@ function Skills(props) {
           <ListItem>
             <ListItemText
               primary="Docker"
+              primaryTypographyProps={{ align: "center" }}
+              secondaryTypographyProps={{ align: "center" }}
+            />
+          </ListItem>
+          <ListItem>
+            <ListItemText
+              primary="Kubernetes"
               primaryTypographyProps={{ align: "center" }}
               secondaryTypographyProps={{ align: "center" }}
             />

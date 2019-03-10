@@ -118,7 +118,8 @@ class Portfolio extends React.Component {
           content={
             <Typography variant="body1" className={classes.body}>
               An individual project designed to assist business users quickly
-              locate problems with eCommerce content. <br />
+              locate problems with eCommerce content. Analysis data is provided through 
+              millions of rows of eCommerce data loaded into a reporting database. <br />
               <ul>
                 Provides overwatch for FOTLInc's main eCommerce sites:
                 fruit.com, spalding.com, russellathletic.com, and
