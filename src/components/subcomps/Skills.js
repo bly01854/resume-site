@@ -35,16 +35,16 @@ function Skills(props) {
           </ListItem>
           <ListItem>
             <ListItemText
-              primary="CSS"
-              secondary="Material UI, Semantic UI, Bootstrap"
+              primary="HTML / CSS"
+              secondary="LESS, Material Design, Semantic UI, Bootstrap"
               primaryTypographyProps={{ align: "center" }}
               secondaryTypographyProps={{ align: "center" }}
             />
           </ListItem>
           <ListItem>
             <ListItemText
-              primary="C#"
-              secondary=".NET"
+              primary="Java"
+              secondary="Android Studio"
               primaryTypographyProps={{ align: "center" }}
               secondaryTypographyProps={{ align: "center" }}
             />
@@ -52,7 +52,7 @@ function Skills(props) {
           <ListItem>
             <ListItemText
               primary="SQL"
-              secondary="PostgreSQL, MySQL, Oracle"
+              secondary="PostgreSQL, SQL Server"
               primaryTypographyProps={{ align: "center" }}
               secondaryTypographyProps={{ align: "center" }}
             />
@@ -89,8 +89,8 @@ function Skills(props) {
         <List>
           <ListItem>
             <ListItemText
-              primary="Java"
-              secondary="Android Studio"
+              primary="C#"
+              secondary=".NET"
               primaryTypographyProps={{ align: "center" }}
               secondaryTypographyProps={{ align: "center" }}
             />
@@ -112,6 +112,13 @@ function Skills(props) {
           <ListItem>
             <ListItemText
               primary="Kubernetes"
+              primaryTypographyProps={{ align: "center" }}
+              secondaryTypographyProps={{ align: "center" }}
+            />
+          </ListItem>
+          <ListItem>
+            <ListItemText
+              primary="Continuous Integration"
               primaryTypographyProps={{ align: "center" }}
               secondaryTypographyProps={{ align: "center" }}
             />

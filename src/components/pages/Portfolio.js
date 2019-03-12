@@ -63,9 +63,8 @@ class Portfolio extends React.Component {
           subtitle={"Spring 2019 (In Progress)"}
           content={
             <Typography variant="body1" className={classes.body}>
-              An individual project designed to make the Integration Solutions
-              team more efficient <br />
-              A desktop application that allows for simple project maintenance:
+              An individual project designed to effectively double project
+              management / deployment time for Integration Solutions: <br />
               <br />
               <ul>
                 Configured with Git to allow for committing work and rollback
@@ -117,9 +116,9 @@ class Portfolio extends React.Component {
           subtitle={"Summer 2018"}
           content={
             <Typography variant="body1" className={classes.body}>
-              An individual project designed to assist business users quickly
-              locate problems with eCommerce content. Analysis data is provided through 
-              millions of rows of eCommerce data loaded into a reporting database. <br />
+              An individual project that extends overwatch to nearly 15,000
+              products on 4 eCommerce sites by performing analysis of millions
+              of rows: <br />
               <ul>
                 Provides overwatch for FOTLInc's main eCommerce sites:
                 fruit.com, spalding.com, russellathletic.com, and
@@ -152,7 +151,7 @@ class Portfolio extends React.Component {
           content={
             <Typography variant="body1" className={classes.body}>
               Team project with a local health department to help get their
-              community active. <br />
+              community active collectively work towards a goal. <br />
               Web-based application that allows users to track their exercise
               progress: walking, running, cycling, etc. <br />
               Created with React, Bootstrap, Express.js, Node.js, MySQL and

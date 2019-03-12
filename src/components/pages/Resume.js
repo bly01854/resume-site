@@ -79,7 +79,7 @@ function Resume(props) {
               size="large"
               className={classes.button}
               download
-              href={require("../../static/BaileyHenson.pdf")}
+              href={require("../../static/BaileyHensonResume.pdf")}
             >
               Download Resume
             </Button>
